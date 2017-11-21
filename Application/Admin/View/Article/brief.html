@@ -1,0 +1,74 @@
+<extend name="Public:background" />
+<block name="js"></block>
+<block name="css"></block>
+<block name="content">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/page.css">
+    <script src="__PUBLIC__/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("select#cid").change(function () {
+                var cid = $("select#cid").val();
+                // var param = $("select#cid").serialize();
+                var url = "{:U('Admin/Article/articleList')}";
+                window.location.href = url + '?cid=' +cid;
+            })
+        })
+    </script>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="well">
+                    <table class="table mytable">
+                        <thead>
+                        <tr>
+                            <th>id</th>
+                            <th style="width: 150px;">文章标题</th>
+                            <th style="width: 1000px;">文章内容</th>
+                            <th>操作</th>
+                            <th style="width: 26px;"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="brief" id="vo">
+                            <tr>
+                                <td>{$vo.id}</td>
+                                <td>{$vo.name}</td>
+                                <td>{$vo.content|mb_substr=0,200,utf8}</td>
+                                <td>
+                                    <a href="{:U('Article/updateBrief',array('brief_id'=>$vo['id']))}"><i class="icon-pencil"></i></a>
+                                </td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="pagination">
+                    <ul>
+                        <li><div class="pages" id="article">{$page}</div></li>
+                    </ul>
+                </div>
+
+                <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">Delete Confirmation</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                        <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </body>
+    </html>
+
+</block>

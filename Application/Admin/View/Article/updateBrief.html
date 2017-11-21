@@ -1,0 +1,84 @@
+<extend name="Public:background" />
+<block name="js"></block>
+<block name="css"></block>
+<block name="content">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>修改文章</title>
+
+    <js file="__PUBLIC__/ueditor/ueditor.config.js"/>
+    <js file="__PUBLIC__/ueditor/ueditor.all.min.js"/>
+    <script src="__PUBLIC__/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="__PUBLIC__/js/ajaxfileupload.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        window.UEDITOR_HOME_URL = '__PUBLIC__/ueditor/';
+        window.onload = function (){
+            window.UEDITOR_CONFIG.initialFrameHeight = 600;
+            window.UEDITOR_CONFIG.initialFrameWidth = 1200;
+            window.UEDITOR_CONFIG.imageUrl ="{:U('Admin/Article/upload')}";
+            UE.getEditor('content');
+        }
+    </script>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="well">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#home" data-toggle="tab">Profile</a></li>
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane active in" id="home">
+                            <form action="{:U('Admin/Article/updateBriefHandle')}" method="post" id="form" name="form" onsubmit="return checksubmit()">
+                                <table>
+                                    <tr>
+                                        <th colspan="2">简介修改</th>
+                                    </tr>
+
+                                    <tr>
+                                        <td align="right">标题：</td>
+                                        <td>
+                                            <input type="text" name="name" id="title" value="{$update[0][name]}">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="2">
+                                            <textarea  cols="45" name="content" id="content">{$update[0][content]}</textarea>
+                                        </td>
+                                    </tr>
+
+                                </table>
+                                <br/><br/>
+                                <input type="submit" value="保存" class="btn btn-primary" style="align-content:center" id="btn">
+                                <input name="brief_id" type="hidden" value="{$id}" />
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">Delete Confirmation</h3>
+                    </div>
+                    <div class="modal-body">
+
+                        <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                        <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    </html>
+</block>
+</body>
+</html>
+
+
+​

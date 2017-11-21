@@ -1,0 +1,83 @@
+.classic_case>.container{
+    margin-bottom: 25px;
+}
+.classic_case li{
+    width: 348px;
+    height: 412px;
+    background-color: #afafaf;
+    color: #fff;
+    float: left;
+    margin-right: 48px;
+    margin-bottom: 50px;
+    border: 4px solid #fff;
+}
+.classic_case li a{
+	color: #fff;
+}
+.classic_case li img{
+    width: 100%;
+}
+.classic_case li:hover{
+    border: 4px solid #28bfeb;
+    background: #28bfeb;
+}
+
+.classic_case .classic_case_big{
+    width: 550px;
+    height: 524px;
+    margin-right: 40px;
+}
+.classic_case_con{
+    margin: 26px 30px 0 30px;
+}
+.classic_case_con h5{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.classic_case_sm{
+    margin: 22px 0 0 0px;
+}
+.classic_case_sm h5{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.classic_case_con p{
+	font-size: 13px;
+	opacity: 0.8;
+	margin-bottom: 8px;
+}
+.classic_case_sm p{
+	font-size: 13px;
+	opacity: 0.8;
+	height: 76px;
+	width:300px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: pre-line;
+	margin-bottom: 8px;
+}
+
+.classic_case .container .showli .classic_case_big img{
+	height: 380px;
+	width: 542px;
+}
+
+.classic_case .container .showli .classic_case_sm img{
+	height: 260px;
+	width: 340px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

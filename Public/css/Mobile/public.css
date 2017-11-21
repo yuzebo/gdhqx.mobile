@@ -1,0 +1,190 @@
+	@charset "utf-8";
+/* CSS Document */
+	body{
+			margin: 0;
+			padding: 0;
+			background: #f5f5f5;
+		}	
+	.container{
+		margin:0;
+		padding:0;
+	}
+	/*-------------页头--------------*/
+	.head{
+		text-align: center;
+	    position: absolute;
+		top: 0px;
+		width: 100%;
+		height: 44px;
+		z-index: 100;
+	}
+	.head_text{
+		display: block;
+		z-index: -1000;
+		color:white;
+		font-size: 18px;
+		margin-top: 8px;
+	}
+	.menu_img{
+		float: right;
+		margin-right: 16px;
+		margin-top: -22px;
+		}
+
+		
+	.menu{
+	   		display: inline-block;
+	   		z-index: 9999;
+	    	cursor: pointer;
+	    	float: right;
+	    	margin-right: 15px;
+	    	margin-top: -23px;
+		}
+		.bar2{
+			width: 18px;
+			height: 2px;
+			background-color: #ffffff;
+			margin: 4px 0;
+			transition: 0.4s;
+		}
+		.bar1, .bar3 {
+			width: 22px;
+			height: 2px;
+			background-color: #ffffff;
+			margin: 3px 0;
+			transition: 0.4s;
+		}
+		.change .bar1 {
+		    -webkit-transform: rotate(-45deg) translate(-3px, 2px) ;
+		    transform: rotate(-45deg) translate(-3px, 2px) ;
+		}
+
+		.change .bar2 {opacity: 0;}
+
+		.change .bar3 {
+		    webkit-transform: rotate(45deg) translate(-6px, -6px) ;
+		    transform: rotate(45deg) translate(-6px, -6px) ;
+		}
+
+
+	/*-------------上方导航--------------*/
+
+	
+	.nav_A{
+		float: left;
+		width: 80px;
+		margin-top: 15px;
+		text-align: center;
+		color: #aec6f2;
+	}
+	.nav_white{
+		color:#ffffff;
+	}
+	
+	.nav_all{
+		width: 100%;
+		margin: 0 auto;
+		font-size: 15px;
+	}
+	.nav_all::-webkit-scrollbar
+	 {
+   		display: none;
+	}
+	
+	.white{
+		width: 58px;
+		height: 2px;
+		background: white;
+		float: left;
+		margin-left: 12px;
+		margin-top: 5px;
+	}
+
+
+
+	
+	/*-------------新闻背景白底--------------*/
+	.new_background{
+		align-items:center;
+		width: 92%;
+		height: 106px;
+		background: #ffffff;
+		border-radius:15px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		box-shadow: 0px 10px 20px -10px #4267b2;
+	}
+	/*-------------新闻标题图片--------------*/
+	.new_img{
+		display: table-cell;
+		padding-right: 12px;
+		float: left;
+		margin-left: 5%;
+		margin-top:4%;
+	}
+	.new_title{
+		padding-top: 4%;
+		color:#484850;
+		font-size: 14px;
+	}
+	.dates{
+		margin-top: 6%;
+		margin-left: 16px;
+		color:#93939b;
+	}
+
+
+
+
+
+
+
+/*--------------底部导航栏--------------*/
+	.navs{
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		height: 50px;
+		background-color: #ffffff;
+		box-shadow:1px 20px 33px 10px #337ab7;
+	}
+	
+	.nav_blank{
+		width:86%;
+		height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+		
+	}
+
+	.nav_icon_img{
+		width: 100%;
+		margin-top: -20%;
+		transform: scale(0.4);
+	}
+	.icon_text{
+		text-align: center;
+		color: #a9adb8;
+		margin-top: -18px;
+		font-size: 6px;
+		}
+
+
+/*-------------侧边导航栏--------------*/
+	.phonemenu{
+		position: fixed;
+		height: 100%;
+		width:43%;
+		top: 0;
+		right: 0;
+		display: none;  
+		z-index: 1;
+		background: #5aa9ff;
+	}
+
+	.icon_white_text{
+		color: white;
+		margin-left: 10px;
+		font-size: 15px;
+	}

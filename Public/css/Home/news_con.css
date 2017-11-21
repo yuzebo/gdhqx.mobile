@@ -1,0 +1,34 @@
+.news_con_html{
+	margin: 48px 0 90px 0;
+}
+.news_con_html_con{
+	width: 884px;
+	margin-left: 82px;
+	float: left;
+}
+.news_con_html_con small{
+	color: #8E8E8E;
+	display: block;
+	margin-top: 28px;
+}
+.news_con_html_essay{
+	margin-top: 50px;
+	color: #8E8E8E;
+	text-indent: 2em;
+	line-height: 26px;
+}
+.news_con_html_img{
+	margin: 20px 0;
+}
+.news_con_html_con h4{
+	font-weight: 600;
+	margin-bottom: 0;
+}
+.news_con_html_con .active_this{
+	width: 26px;
+	height: 5px;
+	display: inline-block;
+	margin-top: 5px;
+	background-color: #00b9ef;
+}
+

@@ -1,0 +1,59 @@
+<extend name="Public:background" />
+<block name="js"></block>
+<block name="css"></block>
+<block name="content">
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="well">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#home" data-toggle="tab">Profile</a></li>
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane active in" id="home">
+                                <form id="tab" action="{:U('rbac/addRoleHandle')}" method="post">
+                                    <label>角色名称：</label>
+                                    <input type="text" value="" class="input-xlarge" name="name">
+                                    <label>角色描述：</label>
+                                    <input type="text" value="" class="input-xlarge" name="remark">
+                                    <tr>
+                                        <label>是否开启：</label>
+                                        <td><input type="radio" name="status" value="1" checked="checked">&nbsp;开启&nbsp;<input type="radio" name="status" value="0">&nbsp;关闭&nbsp;</td>
+                                    </tr>
+                                    <input type="hidden" name="pid" value="0">
+                                    <br/><br/>
+                                    <input type="submit" value="保存" class="btn btn-primary">
+                                </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">Delete Confirmation</h3>
+                    </div>
+                    <div class="modal-body">
+
+                        <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                        <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    </body>
+    </html>
+
+</block>
+
+</body>
+</html>
+
+

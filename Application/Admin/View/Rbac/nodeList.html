@@ -1,0 +1,61 @@
+<extend name="Public:background" />
+<block name="js"></block>
+<block name="css"></block>
+<block name="content">
+
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="well">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>权限id</th>
+                        <th>权限结构</th>
+                        <th>名称</th>
+                        <th>排序</th>
+                        <th>类型</th>
+                        <th>操作</th>
+                        <th style="width: 26px;"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <volist name="node" id="vo">
+                            <tr>
+                                <td>{$vo.id}</td>
+                                <td><p style="text-indent:{$vo['level']*20}px;">{$vo.title}</p></td>
+                                <td>{$vo.name}</td>
+                                <td>{$vo.sort}</td>
+                                <td><if condition="$vo['level'] eq 1">项目<elseif condition="$vo['level'] eq 2" /><div style="color:green">模块</div><else /><div style="color:blue">操作</div></if></td>
+                                <td><a href="{:U('rbac/deletenode',array('id'=>$vo['id']))}">删除</a></td>
+                            </tr>
+                        </volist>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <h3 id="myModalLabel">Delete Confirmation</h3>
+                </div>
+                <div class="modal-body">
+                    <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                    <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
+
+</block>

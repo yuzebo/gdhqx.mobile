@@ -1,0 +1,586 @@
+[ 2017-11-21T09:07:43+08:00 ] ::1 /hqx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001559s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 50 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041279s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001553s ]
+
+[ 2017-11-21T09:07:47+08:00 ] ::1 /hqx/index.php/Five/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000585s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001089s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 30 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 30 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 31 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 31 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 31 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 32 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 34 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 46 行.
+NOTIC: [8] Undefined variable: cid C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 77 行.
+NOTIC: [8] Undefined variable: cid C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 78 行.
+NOTIC: [8] Undefined variable: cid C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 79 行.
+NOTIC: [8] Undefined variable: cid C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008193s ]
+
+[ 2017-11-21T09:07:53+08:00 ] ::1 /hqx/index.php/Five/object/cid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 41 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 43 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2017-11-21T09:09:48+08:00 ] ::1 /hqx/index.php/Five/object/cid/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000431s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001431s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 41 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 43 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002011s ]
+
+[ 2017-11-21T09:09:55+08:00 ] ::1 /hqx/index.php/Five/object/cid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 41 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 43 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037846s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001083s ]
+
+[ 2017-11-21T09:09:58+08:00 ] ::1 /hqx/index.php/Five/object/cid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000437s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 41 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 43 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038456s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001523s ]
+
+[ 2017-11-21T09:10:07+08:00 ] ::1 /hqx/index.php/Five/object/cid/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000463s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 41 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 43 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-11-21T09:11:00+08:00 ] ::1 /hqx/index.php/Five/object/cid/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000443s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 41 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 43 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036551s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001171s ]
+
+[ 2017-11-21T09:11:02+08:00 ] ::1 /hqx/index.php/Five/object/cid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000414s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 39 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 40 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 41 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 43 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\8eea320f6971d9a6bf3f93dbe60686d2.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005641s ]
+
+[ 2017-11-21T09:11:03+08:00 ] ::1 /hqx/index.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001470s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 48 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 50 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043780s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2017-11-21T09:11:06+08:00 ] ::1 /hqx/index.php/Case/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 51 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 51 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 52 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 52 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 52 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 52 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 53 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 55 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2017-11-21T09:11:08+08:00 ] ::1 /hqx/index.php/News/index/cid/32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 41 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 41 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 42 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 42 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 43 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 45 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2017-11-21T09:11:09+08:00 ] ::1 /hqx/index.php/Five/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000995s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 30 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 30 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 31 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 31 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 31 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 32 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 34 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 46 行.
+NOTIC: [8] Undefined variable: cid C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 77 行.
+NOTIC: [8] Undefined variable: cid C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 78 行.
+NOTIC: [8] Undefined variable: cid C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 79 行.
+NOTIC: [8] Undefined variable: cid C:\wamp64\www\hqx\Application\Runtime\Cache\Home\07b341183c0d997c3e9cd58a0a2a7f7a.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2017-11-21T09:11:11+08:00 ] ::1 /hqx/index.php/Case/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 51 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 51 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 52 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 52 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 52 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 52 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 53 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 55 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\04c95f841d5331322adc733700675acf.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2017-11-21T09:11:21+08:00 ] ::1 /hqx/index.php/News/index/cid/32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 41 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 41 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 42 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 42 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 43 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 45 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-11-21T09:13:23+08:00 ] ::1 /hqx/Public/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003230s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:13:23+08:00 ] ::1 /hqx/Public/css/news_con.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:13:23+08:00 ] ::1 /hqx/Public/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:13:33+08:00 ] ::1 /hqx/Public/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:13:33+08:00 ] ::1 /hqx/Public/css/news_con.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:13:33+08:00 ] ::1 /hqx/Public/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:14:01+08:00 ] ::1 /hqx/Public/css/news_con.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:14:01+08:00 ] ::1 /hqx/Public/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:14:01+08:00 ] ::1 /hqx/Public/css/base.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:14:01+08:00 ] ::1 /hqx/Public/css/news_con.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:15:34+08:00 ] ::1 /hqx/index.php/News/index/cid/32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000201s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 41 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 41 行.
+NOTIC: [8] Use of undefined constant Index - assumed 'Index' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 42 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 42 行.
+NOTIC: [8] Use of undefined constant News - assumed 'News' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 43 行.
+NOTIC: [8] Use of undefined constant Five - assumed 'Five' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 45 行.
+NOTIC: [8] Use of undefined constant Intro - assumed 'Intro' C:\wamp64\www\hqx\Application\Runtime\Cache\Home\3e24b471de08a8366f7660bb176a5e74.php 第 57 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-11-21T09:49:18+08:00 ] ::1 /hqx/index.php/News/index/cid/32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+
+[ 2017-11-21T09:50:40+08:00 ] ::1 /hqx/Public/css/Mobile/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T09:51:12+08:00 ] ::1 /hqx/Public/css/__PUBLIC__/images/Mobile/ImgRoll_background.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2017-11-21T09:52:59+08:00 ] ::1 /hqx/Public/css/__PUBLIC__/images/Mobile/ImgRoll_background.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+
+[ 2017-11-21T09:53:07+08:00 ] ::1 /hqx/Public/css/Mobile/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+ERR: 无法加载控制器:Public
+
+[ 2017-11-21T10:01:01+08:00 ] ::1 /hqx/Public/css/Mobile/bootstrap.min.css.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001172s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+ERR: 无法加载控制器:Public
+

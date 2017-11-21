@@ -1,0 +1,66 @@
+	@charset "utf-8";
+/* CSS Document */
+
+#icon_text5{
+		color:#5aaaff;
+	}
+	
+	.phone_img{
+		float: left;
+	}
+	.phone{
+		margin-left: 22px;
+		margin-top: 22px;
+	}
+	.new_background{
+		height: 130px;
+	}
+	.num{
+
+		
+		font-size: 20px;
+		padding-top: 20px;
+		
+	}
+	.num a{
+		margin-left: 10px;
+		text-decoration: none;
+		color: #5ba9ff;
+		letter-spacing: 1px;
+
+	}
+	.pax{
+		
+		margin-left : 74px;
+	}
+	.fax_tex{
+		color:#90949c;
+		font-size: 10px;
+	}
+	.photo{
+		width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 15px;
+	}
+	.pto{
+		width: 345px;
+		height: 186px;
+		
+	}
+	.small{
+		display: block;
+		margin-top: 12px;
+		color:#93939b;
+	}
+	.text{
+		width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:23px; 
+		text-align: justify;
+	}
+	.new_text{
+		
+		text-indent: 2em;
+	}

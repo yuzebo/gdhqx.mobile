@@ -1,0 +1,105 @@
+<extend name="Public:background" />
+<block name="js">
+	<script src="__PUBLIC__/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="__PUBLIC__/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="__PUBLIC__/js/base.js" type="text/javascript" charset="utf-8"></script>
+</block>
+<block name="css">
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/Home/base.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/Home/five_domain.css"/>
+</block>
+<block name="content">
+
+<!--海报-->
+<div id="myCarousel" class="carousel slide">
+	<img src="__PUBLIC__/images/Home/five.png">
+</div>
+
+	<!--五大领域案例展示-->
+<div class="five_domain">
+	<div class="container">
+		<!--五大领域导航-->
+		<div class="base_nav">
+			<ul>
+				<li class="base_nav_active"><a href="{:U('Five/object', array('cid' => 2))}">基础领域</a></li>
+				<li <if condition="$cid eq 3">class="base_nav_active"</if>><a href="{:U('Five/object', array('cid' => 3))}">主体领域</a></li>
+				<li <if condition="$cid eq 4">class="base_nav_active"</if>><a href="{:U('Five/object', array('cid' => 4))}">核心领域</a></li>
+				<li <if condition="$cid eq 6">class="base_nav_active"</if>><a href="{:U('Five/object', array('cid' => 6))}">前沿领域</a></li>
+				<li <if condition="$cid eq 5">class="base_nav_active"</if>><a href="{:U('Five/object', array('cid' => 5))}">提升领域</a></li>
+			</ul>
+		</div>
+		
+		<h3 class="tit">产品展示<i class="active_this set_width"></i></h3>
+		
+		<div class="five_domain_html_con">
+			<a href="">
+				<div class="five_domain_con1">
+					<img src="__PUBLIC__/images/Home/five_domain1.jpg"/>
+					<i></i>
+					<p>强风计</p>
+				</div>
+			</a>
+			<a href="">
+				<div class="five_domain_con2">
+					<img src="__PUBLIC__/images/Home/five_domain2.jpg"/>
+					<i></i>
+					<p>海洋防灾减灾信息化系统</p>
+				</div>
+			</a>
+			<a href="">
+				<div class="five_domain_con3">
+					<img src="__PUBLIC__/images/Home/five_domain3.jpg"/>
+					<i></i>
+					<p>ARGO浮标</p>
+				</div>
+			</a>
+			<a href="">
+				<div class="five_domain_con4">
+					<img src="__PUBLIC__/images/Home/five_domain4.jpg"/>
+					<i></i>
+					<p>海洋环境信息可视化平台</p>
+				</div>
+			</a>
+			<a href="">
+				<div class="five_domain_con5">
+					<img src="__PUBLIC__/images/Home/five_domain5.jpg"/>
+					<i></i>
+					<p>多功能海洋环境监测浮标</p>
+				</div>
+			</a>
+			<a href="">
+				<div class="five_domain_con6">
+					<img src="__PUBLIC__/images/Home/five_domain6.jpg"/>
+					<i></i>
+					<p>海洋动力环境监测浮标</p>
+				</div>
+			</a>
+			<a href="">
+				<div class="five_domain_con7">
+					<img src="__PUBLIC__/images/Home/five_domain7.jpg"/>
+					<i></i>
+					<p>船用气象仪</p>
+				</div>
+			</a>
+			<a href="">
+				<div class="five_domain_con8">
+					<img src="__PUBLIC__/images/Home/five_domain8.jpg"/>
+					<i></i>
+					<p>声学水位计</p>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<!--2017-10-26分页改成查看更多-->
+<div class="more">
+	<div class="container">
+		<a href="{:U('Five/object', array('cid' => 2))}"><p>查看更多...</p></a>
+	</div>
+</div>
+
+</body>
+</html>
+</block>

@@ -1,0 +1,88 @@
+<extend name="Public:background" />
+<block name="js"></block>
+<block name="css"></block>
+<block name="content">
+    <script>
+        $(function(){
+            $('input').click(function(){
+               var level=$(this).attr('level');
+               if(level == 1){
+                   var str = '_';
+                   var inputs = $('input[value*='+str+']');
+                   $(this).attr('checked')?inputs.attr('checked',true):inputs.removeAttr('checked');
+               }else if(level == 2){
+                   var id = $(this).attr('id');
+                   var inputs = $('input[pid='+id+']');
+                   $(this).attr('checked')?inputs.attr('checked',true):inputs.removeAttr('checked');
+               }else if(level == 3){
+                   if($(this).attr('checked')){
+                       var pid = $(this).attr('pid');
+                       $('input[id='+pid+']').attr('checked',true);
+
+                       var ppid = $('input[id='+pid+']').attr('pid');
+                       $('input[id='+ppid+']').attr('checked',true);
+                   }
+
+                   $(this).attr('checked')?inputs.attr('checked',true):inputs.removeAttr('checked');
+               }
+            });
+        });
+    </script>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="well">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#home" data-toggle="tab">Profile</a></li>
+                    </ul>
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane active in" id="home" >
+                            <form id="tab" action="{:U('rbac/setAccess')}" method="post">
+                                <tr>
+                                    <td>
+                                        <div style="padding-left: 20px;">你正在为用户组：<span style="font-weight: bold">{$name}</span>分配权限。</div>
+                                            <volist name="nodelist" id="vo">
+                                                <p style="width:180px;text-indent:{$vo['level']*20}px;<if condition="$vo.level eq 3">float:left;margin-right;40px;<else/>clear:both;</if>">
+                                                <input id="{$vo.id}" type="checkbox" name="access[]" value="{$vo.id}_{$vo.level}" pid="{$vo.pid}" level="{$vo.level}" <if condition="$vo['access']">checked="checked"</if>/>
+                                                    <if condition="$vo.level eq 1"><span style="font-weight: bold">[项目]</span><elseif condition="$vo.level eq 2" /><span style="font-weight: bold">[模块]</span></elseif></if>
+                                                    <label style="display: inline" name="name" value="{$vo.id}" >{$vo.title}</label>
+                                                </p>
+                                            </volist>
+                                    </td>
+                                </tr>
+                                </br>
+                                    <input type="hidden" value="{$rid}" name="rid">
+                                    <input type="submit" value="保存" class="btn btn-primary">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">Delete Confirmation</h3>
+                    </div>
+                    <div class="modal-body">
+
+                        <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                        <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </body>
+    </html>
+
+</block>
+
+</body>
+</html>
+
+

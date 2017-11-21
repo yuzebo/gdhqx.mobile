@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>广东海启星海洋科技有限公司</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>-->
+
+</head>
+<body>
+
+<block name="css"></block>
+<block name="js"></block>
+
+<!--头部导航栏-->
+<div class="container header_container">
+    <header>
+        <h1 class="pull-left"><a href="{:U('Index/index')}"><img src="__PUBLIC__/images/Home/logo6.png"/></a></h1>
+        <h3 class="nav-right">
+            <ul class="nav-right_ul" id="nav-right_ul">
+                <li><a <if condition="$controller_name eq Index">class="header_nav"</if> href="{:U('Index/index')}">首页<i <if condition="$controller_name eq Index">class="active_this header_nav"</if>></i></a></li>
+                <li><a href="{:U('Case/index')}">经典案例<i <if condition="$controller_name neq Index && $controller_name neq News && $controller_name neq Five && $controller_name neq Intro">class="active_this header_nav"</if>></i></a></li>
+                <li><a href="{:U('News/index' ,array('cid' => 32))}">新闻中心<i <if condition="$controller_name eq News">class="active_this header_nav"</if>></i></a></li>
+                <li class="header_two_afive">
+                    <a href="{:U('Five/index')}">五大领域<i <if condition="$controller_name eq Five">class="active_this header_nav"</if>></i></a>
+
+                    <!--新添加头部二级菜单-->
+                    <ul class="header_two_nav header_two_five">
+                        <li><a href="{:U('Five/object', array('cid' => 3))}">主体领域<em>></em></a></li>
+                        <li><a href="{:U('Five/object', array('cid' => 4))}">核心领域<em>></em></a></li>
+                        <li><a href="{:U('Five/object', array('cid' => 2))}">基础领域<em>></em></a></li>
+                        <li><a href="{:U('Five/object', array('cid' => 6))}">前沿领域<em>></em></a></li>
+                        <li><a href="{:U('Five/object', array('cid' => 5))}">提升领域<em>></em></a></li>
+                    </ul>
+                </li>
+                <li class="header_two_aintro">
+                    <a href="{:U('Intro/intro' ,array('cid' => 43))}">公司概况<i <if condition="$controller_name eq Intro">class="active_this header_nav"</if>></i></a>
+
+                    <!--新添加头部二级菜单-->
+                    <ul class="header_two_nav header_two_intro">
+                        <li><a href="{:U('Intro/intro' ,array('cid' => 43))}">公司简介<em>></em></a></li>
+                        <li><a href="{:U('Intro/intro' ,array('cid' => 45))}">资质认证<em>></em></a></li>
+                        <li><a href="{:U('Intro/intro' ,array('cid' => 44))}">企业文化<em>></em></a></li>
+                        <li><a href="{:U('Intro/intro' ,array('cid' => 46))}">人才招聘<em>></em></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </h3>
+    </header>
+</div>
+
+
+
+<block name="content"></block>
+
+<!--底部内容-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 footer_left">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <h3>联系我们</h3>
+
+                        <!--添加底部橙色方块-->
+                        <em></em>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <h4>关于我们</h4>
+                        <ul>
+                            <li><a href="{:U('Intro/intro' ,array('cid' => 44))}">企业文化</a></li>
+                            <li><a href="{:U('Intro/intro' ,array('cid' => 45))}">资质认证</a></li>
+                            <li><a href="{:U('Intro/intro' ,array('cid' => 46))}">人才招聘</a></li>
+                            <li><a href="{:U('Intro/intro' ,array('cid' => 47))}">售后服务</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <h4>经典案例</h4>
+                        <ul>
+                            <li class="base_nav_active"><a href="{:U('Case/index' ,array('cid' => 36))}">海洋站建设案例</a></li>
+                            <li><a href="{:U('Case/index' ,array('cid' => 37))}">浮标布放案例</a></li>
+                            <li><a href="{:U('Case/index' ,array('cid' => 38))}">软件服务案例</a></li>
+                            <li><a href="{:U('Case/index' ,array('cid' => 39))}">系统集成案例</a></li>
+                            <li><a href="{:U('Case/index' ,array('cid' => 40))}">警戒标识服务</a></li>
+                            <li><a href="{:U('Case/index' ,array('cid' => 41))}">海洋综合服务案例</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <h4>新闻中心</h4>
+                        <ul>
+                            <li><a href="{:U('News/index' ,array('cid' => 31))}">海洋知识</a></li>
+                            <li><a href="{:U('News/index' ,array('cid' => 32))}">公司新闻</a></li>
+                            <li><a href="{:U('News/index' ,array('cid' => 33))}">行业动态</a></li>
+                            <li><a href="{:U('Activity' ,array('cid'=>'34'))}">活动公告</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 footer_right">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <h4>广东海启星海洋科技有限公司</h4>
+                        <ul>
+                            <li><i class="glyphicon glyphicon-print"></i>传真：020-31063753</li>
+                            <li><i class="glyphicon glyphicon-envelope"></i>邮箱：hqx@gdhqx.com</li>
+                            <li><i class="glyphicon glyphicon-earphone"></i>电话：020-31063753</li>
+                            <li>020-31043879</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <img class="img-responsive" src="__PUBLIC__/images/Home/wechat.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--添加底部底纹-->
+    <img src="__PUBLIC__/images/Home/footer.png"/>
+</footer>
+

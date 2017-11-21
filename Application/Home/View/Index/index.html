@@ -1,0 +1,270 @@
+<extend name="Public:background" />
+<block name="css">
+	<title>广东海启星海洋科技有限公司</title>
+	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>-->
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/Home/base.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/Home/index.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/Home/animate.min.css"/>
+</block>
+</block>
+<block name="js">
+	<script src="__PUBLIC__/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="__PUBLIC__/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="__PUBLIC__/js/base.js" type="text/javascript" charset="utf-8"></script>
+	<script src="__PUBLIC__/js/index.js"></script>
+	<script src="__PUBLIC__/js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+        new WOW().init();
+	</script>
+	<script>
+        $(function () {
+            $('.news_left_con :first').attr('class', 'news_left_con news_left_con1');
+            $('.news_right_con li:eq(1)').attr('class' , 'op1');
+            $('.news_right_con li:eq(2)').attr('class' , 'op8');
+            $('.news_right_con li:eq(3)').attr('class' , 'op5');
+        })
+	</script>
+</block>
+<block name="content">
+
+<div id="myCarousel" class="carousel slide">
+	<!-- 轮播（Carousel）指标 -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+	</ol>
+	<!-- 轮播（Carousel）项目 -->
+	<div class="carousel-inner">
+		<div class="item active">
+			<a href="http://www.gdhqx.com/index.php/Home/Five/showFive/id/82/cid/8"><img src="__PUBLIC__/images/Home/1.jpg" alt="First slide"></a>
+		</div>
+		<div class="item">
+			<a href="http://www.gdhqx.com/index.php/Home/Five/showFive/id/71/cid/9"><img src="__PUBLIC__/images/Home/2.jpg" alt="Second slide"></a>
+		</div>
+		<div class="item">
+			<a href="http://www.gdhqx.com/index.php/Home/Five/showFive/id/83/cid/10"><img src="__PUBLIC__/images/Home/3.jpg" alt="Third slide"></a>
+		</div>
+	</div>
+	<!-- 轮播（Carousel）导航 -->
+	<a class="carousel-control left" href="#myCarousel"
+	   data-slide="prev"></a>
+	<a class="carousel-control right" href="#myCarousel"
+	   data-slide="next"></a>
+</div>
+
+<!--五大领域-->
+<div class="five">
+	<div class="container">
+		<div class="five_top">
+			<ul id="five_top_ul">
+				<li class="wow fadeInUp" data-wow-delay="0.5s">
+					<a href="{:U('Five/object', array('cid' => 2))}">基础领域</a>
+				</li>
+				<li class="wow fadeInUp" data-wow-delay="0.75s">
+					<a href="{:U('Five/object', array('cid' => 3))}">主体领域</a>
+				</li>
+				<li class="wow fadeInUp" data-wow-delay="1s">
+					<a href="{:U('Five/object', array('cid' => 4))}">核心领域</a>
+				</li>
+				<li class="wow fadeInUp" data-wow-delay="1.25s">
+					<a href="{:U('Five/object', array('cid' => 6))}">前沿领域</a>
+				</li>
+				<li class="wow fadeInUp" data-wow-delay="1.5s">
+					<a href="{:U('Five/object', array('cid' => 5))}">提升领域</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!--2017-10-24修改第一个P标签显示隐藏-->
+	<div class="five_bottom" id="five_bottom">
+		<div class="container">
+			<span>{$info[2]}</span>
+			<span>{$info[0]}</span>
+			<span>{$info[1]}</span>
+			<span>{$info[3]}</span>
+			<span>{$info[4]}</span>
+		</div>
+	</div>
+</div>
+
+
+<!--新闻版块-->
+	<div class="news">
+		<div class="container">
+			<div class="news_left wow fadeInUp">
+				<h3 class="tit">新闻资讯<i class="active_this set_width"></i></h3>
+				<foreach name="left" item="vo">
+					<div class="news_left_con">
+						<div class="news_left_text">
+							<p style="overflow: hidden;text-overflow:ellipsis;">{$vo.brief}</p>
+						</div>
+						<div class="news_left_img">
+							<img style="width: 240px;height: 180px;" src="__ROOT__/Uploads/Face/{$vo.max}"/>
+						</div>
+					</div>
+				</foreach>
+			</div>
+			<div class="news_right">
+				<ul id="news_right_con">
+					<li></li>
+					<li></li>
+					<foreach name="result" item="vo">
+						<li><a href="{:U('showNews', array('id' => $vo['id'] , 'cid' => $vo['cid']))}">{$vo.title}</a></li>
+					</foreach>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--公司文化版块-->
+<div class="about">
+	<div class="container">
+		<div class="about_con" style="display: block;">
+			<h3 class="tit">公司简介<i class="active_this set_width"></i></h3>
+			<div style="margin-top: 70px;">
+				<div class="about_con_left">
+					<i class="about_square1"></i>
+					<i class="about_square2"></i>
+					<div class="about_con_img">
+						<img src="__PUBLIC__/images/Home/index_intro.png"/>
+					</div>
+				</div>
+				<div class="about_con_right">
+					<div class="about_con_text">
+						<h3>公司简介</h3>
+						<p>{$info[5]}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<div class="about_con" style="display: none;">
+			<h3 class="tit">企业文化<i class="active_this set_width"></i></h3>
+			<div style="margin-top: 70px;">
+				<div class="about_con_left">
+					<i class="about_square1"></i>
+					<i class="about_square2"></i>
+					<div class="about_con_img">
+						<img src="__PUBLIC__/images/Home/mazu.png"/>
+					</div>
+				</div>
+				<div class="about_con_right">
+					<div class="about_con_text">
+						<h3>企业文化</h3>
+						<p>{$info[6]}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<ul class="about_con_stria">
+			<li class="about_con_stria_li"></li>
+			<li class="about_con_stria_li"></li>
+			<li></li>
+		</ul>
+		
+		<!--<div class="about_con">
+			<h3 class="tit">公司简介<i class="active_this set_width"></i></h3>
+			<div style="margin-top: 70px;">
+				<div class="about_con_left">
+					<i class="about_square1"></i>
+					<i class="about_square2"></i>
+					<div class="about_con_img">
+						<img src="images/mazu1.jpg"/>
+					</div>
+					<h4>Sea star</h4>
+				</div>
+				<div class="about_con_right">
+					<div class="about_con_text">
+						<h3>公司简介</h3>
+						<p>广东海启星海洋科技有限公司，现入驻国家级创新基地广州清华科技园。<br /><br />公司秉承发展海洋经济，建设海洋强国战略，立足广东省区域优势，与中科院、国家级技术中心、科研院所等达成合作关系，共同致力于海洋科技创新应用。主要承担：海洋装备及观测技术服务、相关基础设施建设和维护项目；<br /><br />重点开展拥有自主知识产权的海洋信息化专题系统建设，提供智慧海洋与城市、涉海产业大数据应用解 决方案；提供海洋综合业务技术服务、海洋技术培训、咨询和特殊岗位购买服务；开展海洋装备、专业仪器的研发、销售与技术支持，努力打造海洋科技转化和成果应用和综合实力国内领先的“双创”实体。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="about_con">
+			<h3 class="tit">关于我们<i class="active_this set_width"></i></h3>
+			<div style="margin-top: 70px;">
+				<div class="about_con_left">
+					<i class="about_square1"></i>
+					<i class="about_square2"></i>
+					<div class="about_con_img">
+						<img src="images/mazu1.jpg"/>
+					</div>
+					<h4>Sea star</h4>
+				</div>
+				<div class="about_con_right">
+					<div class="about_con_text">
+						<h3>关于我们</h3>
+						<p>广东海启星海洋科技有限公司，现入驻国家级创新基地广州清华科技园。<br /><br />公司秉承发展海洋经济，建设海洋强国战略，立足广东省区域优势，与中科院、国家级技术中心、科研院所等达成合作关系，共同致力于海洋科技创新应用。主要承担：海洋装备及观测技术服务、相关基础设施建设和维护项目；<br /><br />重点开展拥有自主知识产权的海洋信息化专题系统建设，提供智慧海洋与城市、涉海产业大数据应用解 决方案；提供海洋综合业务技术服务、海洋技术培训、咨询和特殊岗位购买服务；开展海洋装备、专业仪器的研发、销售与技术支持，努力打造海洋科技转化和成果应用和综合实力国内领先的“双创”实体。</p>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!--<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<i class="about_nav"></i>-->
+	</div>
+</div>
+
+<!--合作伙伴-->
+<div class="partner">
+	<div class="container">
+		<h3 class="tit">合作伙伴<i class="active_this set_width"></i></h3>
+		<div class="partner_con">
+			<!--<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>-->
+			<span class="partner_con_left glyphicon glyphicon-chevron-left" id="partner_con_left"></span>
+			<div class="partner_con_wrapimg">
+				<div class="partner_con_img" id="partner_con_img">
+					<img src="__PUBLIC__/images/Home/partner1.jpg"/>
+					<img src="__PUBLIC__/images/Home/partner2.jpg"/>
+					<img src="__PUBLIC__/images/Home/partner3.jpg"/>
+				</div>
+			</div>
+			<span class="partner_con_right glyphicon glyphicon-chevron-right" id="partner_con_right"></span>
+		</div>
+
+
+
+
+
+
+
+
+
+	</div>
+</div>
+
+
+
+<!--底部三色条-->
+<ul class="footer_logo_color">
+	<li></li>
+	<li></li>
+	<li></li>
+</ul>
+
+
+</body>
+</html>
+</block>

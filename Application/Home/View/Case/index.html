@@ -1,0 +1,81 @@
+<extend name="Public:background" />
+<block name="js">
+	<script src="__PUBLIC__/js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="__PUBLIC__/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="__PUBLIC__/js/base.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+        var imgWidth = $('.classic_case_big').attr('width');
+        var indexUrl = "{:U('Index/index')}";
+        var breadcrumbUrl = "{:U('Home/News/index')}";
+
+	</script>
+	<script>
+		$(function () {
+		$('.showli li:first').attr('class' ,'classic_case_big');
+		$('.showli li:eq(1)').attr('class' ,'classic_case_big').attr('style','margin-right:0');
+		$('.showli li:first a div').attr('class' ,'classic_case_con');
+        $('.showli li:eq(1) a div').attr('class' ,'classic_case_con');
+        $('.showli li:gt(1)').attr('class','classic_case_sm');
+        $('.showli li:gt(1) a div').attr('class' ,'classic_case_con');
+        $('.showli li:eq(4)').attr('style','margin-right:0');
+        $('.showli li:eq(7)').attr('style','margin-right:0');
+        $('.nav_crumbs_ul li a:last').removeAttr('href');
+        });
+	</script>
+</block>
+<block name="css">
+	<title>经典案例</title>
+	<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/Home/base.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/Home/classic_case.css"/>
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/Home/page.css"/>
+</block>
+<block name="content">
+
+<!--海报-->
+<div id="myCarousel" class="carousel slide">
+	<img src="__PUBLIC__/images/Home/case.png">
+</div>
+
+
+<!--2017-10-26添加经典案例导航-->
+<div class="container">
+	<div class="base_nav">
+		<ul>
+			<li <if condition="$cid eq 36 || $cid eq null">class="base_nav_active"</if> ><a href="{:U('Case/index' ,array('cid' => 36))}">海洋站建设案例</a></li>
+			<li <if condition="$cid eq 37">class="base_nav_active"</if> ><a href="{:U('Case/index' ,array('cid' => 37))}">浮标布放案例</a></li>
+			<li <if condition="$cid eq 38">class="base_nav_active"</if> ><a href="{:U('Case/index' ,array('cid' => 38))}">软件服务案例</a></li>
+			<li <if condition="$cid eq 39">class="base_nav_active"</if> ><a href="{:U('Case/index' ,array('cid' => 39))}">系统集成案例</a></li>
+			<li <if condition="$cid eq 40">class="base_nav_active"</if> ><a href="{:U('Case/index' ,array('cid' => 40))}">警戒标识服务</a></li>
+			<li <if condition="$cid eq 41">class="base_nav_active"</if> ><a href="{:U('Case/index' ,array('cid' => 41))}">海洋综合服务案例</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="classic_case">
+    <div class="container">
+        <h3 class="tit">经典案例<i class="active_this set_width"></i></h3>
+        <ul class="showli">
+			<foreach name="result" item="vo">
+            <li>
+            	<a href="{:U('showCase', array('id' => $vo['id'] ,'cid' => $vo['cid']))}">
+                	<img src="__ROOT__/Uploads/Face/{$vo.max}" alt="">
+	                <div>
+	                    <h5><strong>{$vo.title}</strong></h5>
+	                    <p>{$vo.brief|htmlspecialchars_decode}</p>
+	                </div>
+                </a>
+            </li>
+			</foreach>
+		</ul>
+    </div>
+</div>
+
+<!--分页-->
+<div class="pages">
+	<li>{$show}</li>
+</div>
+
+</body>
+</html>
+</block>

@@ -1,0 +1,1555 @@
+[ 2017-11-14T10:00:20+08:00 ] 59.41.166.189 /index.php/Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-11-14T10:00:20+08:00 ] 59.41.166.189 /index.php/admin/login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Undefined index: username /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/32ec6c906c117a7c2bf504769276d87a.php 第 76 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-11-14T10:00:20+08:00 ] 59.41.166.189 /index.php/admin/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-11-14T10:00:22+08:00 ] 59.41.166.189 /index.php/admin/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-14T10:00:25+08:00 ] 59.41.166.189 /index.php/admin/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'index' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'index' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013597s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-11-14T10:01:34+08:00 ] 59.41.166.189 /index.php/Admin/Article/articleList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cid /home/wwwroot/default/hqx/Application/Admin/Controller/ArticleController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `cid` IN ('2','7','8','9','10','11','3','12','13','14','15','16','4','24','25','26','27','28','29','5','17','18','19','6','20','21','22','23','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47') LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`content`,`addtime`,`cid`,`del`,`uid`,`username`,`click`,`max`,`medium`,`mini`,`author`,`brief` FROM `think_article` WHERE `cid` IN ('2','7','8','9','10','11','3','12','13','14','15','16','4','24','25','26','27','28','29','5','17','18','19','6','20','21','22','23','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47') ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='108' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='35' [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='36' [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='38' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='39' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='40' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='45' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='50' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='105' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='104' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-11-14T10:01:34+08:00 ] 59.41.166.189 /index.php/Admin/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-11-14T10:01:45+08:00 ] 59.41.166.189 /index.php/admin/article/articlelist?cid=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `cid` IN ('2','7','8','9','10','11','3','12','13','14','15','16','4','24','25','26','27','28','29','5','17','18','19','6','20','21','22','23','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47') LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `id`,`title`,`content`,`addtime`,`cid`,`del`,`uid`,`username`,`click`,`max`,`medium`,`mini`,`author`,`brief` FROM `think_article` WHERE `cid` IN ('2','7','8','9','10','11','3','12','13','14','15','16','4','24','25','26','27','28','29','5','17','18','19','6','20','21','22','23','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47') ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='108' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='35' [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='36' [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='38' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='39' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='40' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='45' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='50' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='105' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='104' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2017-11-14T10:02:00+08:00 ] 59.41.166.189 /index.php/admin/article/articlelist?cid=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `cid` = 12 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`content`,`addtime`,`cid`,`del`,`uid`,`username`,`click`,`max`,`medium`,`mini`,`author`,`brief` FROM `think_article` WHERE `cid` = 12 ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='86' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='87' [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='85' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-11-14T15:24:04+08:00 ] 59.41.167.245 /index.php/admin/article/articlelist?cid=42
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `cid` IN ('43','44','45','46','47') LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `id`,`title`,`content`,`addtime`,`cid`,`del`,`uid`,`username`,`click`,`max`,`medium`,`mini`,`author`,`brief` FROM `think_article` WHERE `cid` IN ('43','44','45','46','47') ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='67' [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0006s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='45' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='68' [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='46' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='66' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='44' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='65' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='43' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-11-14T15:24:12+08:00 ] 59.41.167.245 /index.php/admin/article/updatearticle/article_id/65
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'updatearticle' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'updatearticle' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+NOTIC: [8] Use of undefined constant int - assumed 'int' /home/wwwroot/default/hqx/Application/Admin/Controller/ArticleController.class.php 第 231 行.
+SQL: SELECT * FROM `think_article` WHERE ( id=65 )  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant int - assumed 'int' /home/wwwroot/default/hqx/Application/Admin/Controller/ArticleController.class.php 第 235 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 330 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 339 行.
+NOTIC: [8] Use of undefined constant author - assumed 'author' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 345 行.
+NOTIC: [8] Use of undefined constant addtime - assumed 'addtime' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 350 行.
+NOTIC: [8] Use of undefined constant brief - assumed 'brief' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 355 行.
+NOTIC: [8] Use of undefined constant content - assumed 'content' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 360 行.
+NOTIC: [8] Use of undefined constant max - assumed 'max' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 368 行.
+NOTIC: [8] Use of undefined constant max - assumed 'max' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/6d51f7273f8344e06d6a7e7a8a7decb1.php 第 371 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-11-14T15:24:12+08:00 ] 59.41.167.245 /index.php/admin/article/updatearticle/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-11-14T17:07:20+08:00 ] 113.109.49.89 /index.php/Admin/Article/cateList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'catelist' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'catelist' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2017-11-14T17:11:03+08:00 ] 59.41.167.245 /index.php/Admin/Article/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'addarticle' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'addarticle' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2017-11-14T17:11:06+08:00 ] 59.41.167.245 /index.php/Admin/Article/articleList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cid /home/wwwroot/default/hqx/Application/Admin/Controller/ArticleController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `cid` IN ('2','7','8','9','10','11','3','12','13','14','15','16','4','24','25','26','27','28','29','5','17','18','19','6','20','21','22','23','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`content`,`addtime`,`cid`,`del`,`uid`,`username`,`click`,`max`,`medium`,`mini`,`author`,`brief` FROM `think_article` WHERE `cid` IN ('2','7','8','9','10','11','3','12','13','14','15','16','4','24','25','26','27','28','29','5','17','18','19','6','20','21','22','23','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47') ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='108' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0004s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='35' [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='36' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='38' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='39' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='40' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='45' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='50' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='105' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='104' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-11-14T17:11:08+08:00 ] 59.41.167.245 /index.php/admin/article/articlelist?cid=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `cid` IN ('7','8','9','10','11') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`content`,`addtime`,`cid`,`del`,`uid`,`username`,`click`,`max`,`medium`,`mini`,`author`,`brief` FROM `think_article` WHERE `cid` IN ('7','8','9','10','11') ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='84' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='83' [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='10' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='82' [ RunTime:0.0003s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='8' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='81' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='7' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='71' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-11-14T17:11:23+08:00 ] 59.41.167.245 /index.php/Admin/Article/brief
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'brief' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'brief' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_brief` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_brief`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Undefined variable: page /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-11-14T17:11:53+08:00 ] 59.41.167.245 /index.php/Admin/Article/brief
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'brief' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'brief' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_brief` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_brief`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Undefined variable: page /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-11-14T17:13:21+08:00 ] 59.41.167.245 /index.php/Admin/Article/articleList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'articlelist' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cid /home/wwwroot/default/hqx/Application/Admin/Controller/ArticleController.class.php 第 167 行.
+SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_article` WHERE `cid` IN ('2','7','8','9','10','11','3','12','13','14','15','16','4','24','25','26','27','28','29','5','17','18','19','6','20','21','22','23','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47') LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `id`,`title`,`content`,`addtime`,`cid`,`del`,`uid`,`username`,`click`,`max`,`medium`,`mini`,`author`,`brief` FROM `think_article` WHERE `cid` IN ('2','7','8','9','10','11','3','12','13','14','15','16','4','24','25','26','27','28','29','5','17','18','19','6','20','21','22','23','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47') ORDER BY addtime desc LIMIT 0,10   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `think_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='108' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0005s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='35' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='36' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='38' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='39' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='40' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='45' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='50' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='105' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='27' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: mapping_order /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit /home/wwwroot/default/hqx/ThinkPHP/Library/Think/Model/RelationModel.class.php 第 187 行.
+SQL: SELECT b.id,username FROM think_article_user AS a, think_user AS b WHERE a.user_id = b.id AND a. article_id='104' [ RunTime:0.0002s ]
+SQL: SELECT `title` FROM `think_cate` WHERE ( 1=1 AND id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant cid - assumed 'cid' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Undefined variable: update /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 172 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/8f8f9e924fef2f7f19573b72163671c0.php 第 199 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-11-14T17:13:23+08:00 ] 59.41.167.245 /index.php/Admin/Article/cateList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'catelist' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'catelist' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_cate` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_cate` ORDER BY sort  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-11-14T17:13:24+08:00 ] 59.41.167.245 /index.php/Admin/Article/brief
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `think_node` WHERE `level` = 2 ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='2' ) ORDER BY sort  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='5' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `think_node` WHERE ( 1=1 AND pid='13' ) ORDER BY sort  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `think_node` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'brief' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `think_node` WHERE `name` = 'brief' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `think_node`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `think_brief` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `think_brief`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Use of undefined constant utf8 - assumed 'utf8' /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 183 行.
+NOTIC: [8] Undefined variable: page /home/wwwroot/default/hqx/Application/Runtime/Cache/Admin/e91c908f6e35d14d2e137cd27a521424.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+

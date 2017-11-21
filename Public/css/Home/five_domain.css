@@ -1,0 +1,115 @@
+.five_domain_html_nav{
+	margin-top: 110px;
+	margin-bottom: 276px;
+}
+.five_domain_html_nav li{
+	width: 130px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	font-size: 14px;
+	color: #8E8E8E;
+	float: left;
+	margin-right: 56px;
+}
+.five_domain_html_nav .five_domain_active{
+	background-color: #28bfeb;
+	color: #fff;
+}
+
+.five_domain_html_con{
+	position: relative;
+	width: 100%;
+	height: 696px;
+}
+.five_domain_html_con img{
+	width: 100%;
+}
+.five_domain_con1{
+	width: 276px;
+	height: 404px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.five_domain_con2{
+	width: 276px;
+	height: 194px;
+	position: absolute;
+	left: 290px;
+	top: 0;
+}
+.five_domain_con3{
+	width: 276px;
+	height: 194px;
+	position: absolute;
+	left: 290px;
+	top: 210px;
+}
+.five_domain_con4{
+	width: 566px;
+	height: 194px;
+	position: absolute;
+	left: 0;
+	top: 420px;
+}
+.five_domain_con5{
+	width: 568px;
+	height: 194px;
+	position: absolute;
+	left: 582px;
+	top: 0;
+}
+.five_domain_con6{
+	width: 276px;
+	height: 404px;
+	position: absolute;
+	left: 582px;
+	top: 210px;
+}
+.five_domain_con7{
+	width: 276px;
+	height: 194px;
+	position: absolute;
+	left: 874px;
+	top: 210px;
+}
+.five_domain_con8{
+	width: 276px;
+	height: 194px;
+	position: absolute;
+	left: 874px;
+	top: 420px;
+}
+.five_domain_html_con p{
+	position: absolute;
+	bottom: 16px;
+	left: 22px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.five_domain_html_con i{
+	width: 100%;
+	height: 50px;
+	background-color: #000;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0.5;
+}
+.more{
+	color: #8E8E8E;
+	margin-bottom: 30px;
+}
+.more p{
+	float: right;
+	padding: 0 40px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+
+
+
